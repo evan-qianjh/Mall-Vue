@@ -55,7 +55,6 @@ export const loadCarouselItems = ({ commit }) => {
       carouselItems: [
         'static/img/nav/1.jpg',
         'static/img/nav/2.jpg',
-        'static/img/nav/3.jpg',
         'static/img/nav/4.jpg',
         'static/img/nav/5.jpg'
       ],
@@ -227,7 +226,7 @@ export const loadGoodsInfo = ({ commit }) => {
           'static/img/goodsDetail/item-detail-4.jpg'
         ],
         title: '苹果8/7手机壳iPhone7 Plus保护壳全包防摔磨砂硬外壳',
-        tags: ['满69-20元', '关注产品★送钢化膜', 'BIT配次日达'],
+        tags: ['满69-20元', '关注产品★送钢化膜', '配次日达'],
         discount: ['满148减10', '满218减20', '满288减30'],
         promotion: ['跨店满减', '多买优惠'],
         remarksNum: 6000,
