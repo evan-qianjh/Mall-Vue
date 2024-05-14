@@ -40,7 +40,7 @@
         </div>
         <div class="clearfix"></div>
         <div class="copyright">
-          <p>Copyright © 2018 by Gavin <a href="https://github.com/PowerDos"><Icon type="social-github"></Icon></a> <span>本项目仅供学习参考</span></p>
+          <p>Copyright © 2024 <span>合肥乾图无限科技有限公司</span> <a href="https://beian.miit.gov.cn/">皖ICP备2024034969号-1</a></p>
         </div>
       </div>
     </footer>
@@ -55,7 +55,7 @@ export default {
       linkItemClass: 'link-item',
       guideArr: [
         [ '购物指南', '购物流程', '会员介绍', '生活旅行', '常见问题', '大家电', '联系客服' ],
-        [ '配送方式', '上门自提', '211限时达', '配送服务查询', '收取标准', '海外配送' ],
+        [ '配送方式', '上门自提', '211限时达', '配送服务查询', '收取标准' ],
         [ '支付方式', '货到付款', '在线支付', '分期付款', '邮局汇款', '公司转账' ],
         [ '售后服务', '售后政策', '价格保护', '退款说明', '返修/退换货', '取消订单' ]
       ],
@@ -174,7 +174,6 @@ export default {
 }
 .copyright a{
   color: #232323;
-  font-size: 20px;
 }
 /*****************************底 部 结 束*****************************/
 </style>

@@ -87,9 +87,9 @@
             </DropdownMenu>
           </Dropdown>
         </li>
-        <li><router-link to="/">网站导航</router-link></li>
-        <li><router-link to="/freeback">意见反馈</router-link></li>
         <li><router-link to="/">商城首页</router-link></li>
+        <li><router-link to="/freeback">意见反馈</router-link></li>
+        <li><router-link to="/join">商家入驻</router-link></li>
       </ul>
     </div>
   </div>
@@ -105,12 +105,12 @@ export default {
   },
   data () {
     return {
-      city: '珠海',
+      city: '合肥',
       cityArr: [
         ['北京', '上海', '天津', '重庆', '广州'],
         ['深圳', '河南', '辽宁', '吉林', '江苏'],
         ['江西', '四川', '海南', '贵州', '云南'],
-        ['西藏', '陕西', '甘肃', '青海', '珠海']
+        ['合肥', '陕西', '甘肃', '青海', '珠海']
       ]
     };
   },

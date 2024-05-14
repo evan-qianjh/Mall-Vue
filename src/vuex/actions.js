@@ -21,7 +21,7 @@ export const loadSeckillsInfo = ({ commit }) => {
         realPrice: 49.0
       },
       {
-        intro: '【京东超市】清风（APP）抽纸 原木纯品金装系列 3层',
+        intro: '【超市】清风（APP）抽纸 原木纯品金装系列 3层',
         img: 'static/img/index/seckill/seckill-item4.jpg',
         price: 49.9,
         realPrice: 59.0

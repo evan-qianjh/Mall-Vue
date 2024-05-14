@@ -13,6 +13,7 @@ const Order = resolve => require(['@/components/Order'], resolve);
 const Pay = resolve => require(['@/components/Pay'], resolve);
 const PayDone = resolve => require(['@/components/PayDone'], resolve);
 const Freeback = resolve => require(['@/components/Freeback'], resolve);
+const Join = resolve => require(['@/components/Join'], resolve);
 const Home = resolve => require(['@/components/Home'], resolve);
 const MyAddress = resolve => require(['@/components/home/MyAddress'], resolve);
 const AddAddress = resolve => require(['@/components/home/AddAddress'], resolve);
@@ -95,6 +96,11 @@ export default new Router({
       path: '/freeback', // 反馈页面
       name: 'Freeback',
       component: Freeback
+    },
+    {
+      path: '/join', // 商家入驻
+      name: 'Join',
+      component: Join
     },
     {
       path: '/home', // 主页

@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="nav-item">
-      <ul>
-        <li v-for="(item,index) in nav" :key="index">
-          <a href="#">{{item}}</a>
-        </li>
-      </ul>
-    </div>
+<!--    <div class="nav-item">-->
+<!--      <ul>-->
+<!--        <li v-for="(item,index) in nav" :key="index">-->
+<!--          <a href="#">{{item}}</a>-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--    </div>-->
     <div class="nav-body">
       <!-- 侧边导航 -->
       <div class="nav-side" ref="navSide">
