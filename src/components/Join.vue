@@ -8,7 +8,7 @@
         <div class="freeback-box">
           <div class="freeback-title">
             <h1>商家入驻</h1>
-            <h2>请留下您的联系方式，我们将第一时间联系您。</h2>
+            <h2>请留下您的联系方式，我们将及时与您联系。</h2>
           </div>
           <div class="freeback-content">
             <div class="freeback-form">
