@@ -10,85 +10,46 @@
     <div class="nav-body">
       <!-- 侧边导航 -->
       <div class="nav-side" ref="navSide">
-        <ul>
-          <li>
-            <span class="nav-side-item">手机</span> /
-            <span class="nav-side-item">数码</span> /
-            <span class="nav-side-item">数码配件</span>
-          </li>
-          <li>
-            <span class="nav-side-item">电脑</span> /
-            <span class="nav-side-item">办公用品</span>
-          </li>
-          <li>
-            <span class="nav-side-item">男装</span> /
-            <span class="nav-side-item">女装</span> /
-            <span class="nav-side-item">童装</span> /
-            <span class="nav-side-item">内衣</span>
-          </li>
-          <li>
-            <span class="nav-side-item">男鞋</span> /
-            <span class="nav-side-item">女鞋</span> /
-            <span class="nav-side-item">童鞋</span>
-          </li>
-          <li>
-            <span class="nav-side-item">箱包</span> /
-            <span class="nav-side-item">配饰</span>
-          </li>
-          <li>
-            <span class="nav-side-item">运动</span> /
-            <span class="nav-side-item">户外</span>
-          </li>
-          <li>
-            <span class="nav-side-item">玩具</span> /
-            <span class="nav-side-item">乐器</span>
-          </li>
-          <li>
-            <span class="nav-side-item">礼品</span> /
-            <span class="nav-side-item">鲜花</span>
-          </li>
-<!--          <li>-->
-<!--            <span class="nav-side-item">男鞋</span> /-->
-<!--            <span class="nav-side-item">女鞋</span>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <span class="nav-side-item">童装</span>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <span class="nav-side-item">内衣</span>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <span class="nav-side-item">配饰</span> /-->
-<!--            <span class="nav-side-item">钟表</span>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <span class="nav-side-item">箱包</span>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <span class="nav-side-item">户外</span> /-->
-<!--            <span class="nav-side-item">运动</span>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <span class="nav-side-item">手机</span> /-->
-<!--            <span class="nav-side-item">手机配件</span>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <span class="nav-side-item">电脑</span> /-->
-<!--            <span class="nav-side-item">数码</span> /-->
-<!--            <span class="nav-side-item">数码配件</span>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <span class="nav-side-item">玩具</span> /-->
-<!--            <span class="nav-side-item">乐器</span>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <span class="nav-side-item">礼品</span> /-->
-<!--            <span class="nav-side-item">鲜花</span>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <span class="nav-side-item">办公用品</span>-->
-<!--          </li>-->
-        </ul>
+        <router-link to="/goodsList" style="text-decoration: none;color: #fff">
+          <ul>
+            <li>
+              <span class="nav-side-item">手机</span> /
+              <span class="nav-side-item">数码</span> /
+              <span class="nav-side-item">数码配件</span>
+            </li>
+            <li>
+              <span class="nav-side-item">电脑</span> /
+              <span class="nav-side-item">办公用品</span>
+            </li>
+            <li>
+              <span class="nav-side-item">男装</span> /
+              <span class="nav-side-item">女装</span> /
+              <span class="nav-side-item">童装</span> /
+              <span class="nav-side-item">内衣</span>
+            </li>
+            <li>
+              <span class="nav-side-item">男鞋</span> /
+              <span class="nav-side-item">女鞋</span> /
+              <span class="nav-side-item">童鞋</span>
+            </li>
+            <li>
+              <span class="nav-side-item">箱包</span> /
+              <span class="nav-side-item">配饰</span>
+            </li>
+            <li>
+              <span class="nav-side-item">运动</span> /
+              <span class="nav-side-item">户外</span>
+            </li>
+            <li>
+              <span class="nav-side-item">玩具</span> /
+              <span class="nav-side-item">乐器</span>
+            </li>
+            <li>
+              <span class="nav-side-item">礼品</span> /
+              <span class="nav-side-item">鲜花</span>
+            </li>
+          </ul>
+        </router-link>
       </div>
       <div class="nav-content">
         <!-- 幻灯片 -->

@@ -1,6 +1,12 @@
 <template>
   <div class="container">
-    <Search></Search>
+    <div class="search-wrapper">
+      <div class="search-logo">
+        <img class="search-logo-img" src="static/img/logo_100.jpg" alt="">
+        <div class="search-logo-label">乾图易购</div>
+      </div>
+      <Search></Search>
+    </div>
     <HomeNav></HomeNav>
     <!-- 商品显示区域 -->
     <div class="content">
@@ -170,6 +176,23 @@ export default {
 <style scoped>
 .container {
   background-color: #F6F6F6;
+}
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.search-logo {
+  margin-right: 100px;
+  margin-top: 25px;
+  text-align: center;
+}
+.search-logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+.search-logo-label {
+  font-weight: bold;
 }
 .content {
   width: 1008px;
