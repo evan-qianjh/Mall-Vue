@@ -667,23 +667,23 @@ export const loadAddress = ({ commit }) => {
     const address = [
       {
         addressId: '123456',
-        name: 'Gavin',
-        province: '广东省',
-        city: '广州市',
-        area: '天河区',
-        address: '燕岭路633号',
-        phone: '152****0609',
-        postalcode: '510000'
+        name: 'Mars',
+        province: '安徽省',
+        city: '合肥市',
+        area: '蜀山区',
+        address: '创新大道',
+        phone: '198****4949',
+        postalcode: '230000'
       },
       {
         addressId: '123458',
-        name: 'Kevin',
-        province: '上海市',
-        city: '上海市',
-        area: '浦东新区',
-        address: '沙新镇',
-        phone: '158****0888',
-        postalcode: '200120'
+        name: 'Evan',
+        province: '安徽省',
+        city: '合肥市',
+        area: '蜀山区',
+        address: '创新大道',
+        phone: '187****8535',
+        postalcode: '230000'
       }
     ];
     commit('SET_USER_ADDRESS', address);
