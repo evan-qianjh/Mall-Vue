@@ -3,7 +3,7 @@ export const loadSeckillsInfo = ({ commit }) => {
   return new Promise((resolve, reject) => {
     const data = [
       {
-        intro: '【赠小风扇】维他 柠檬茶250ml*32盒 礼品装 整箱',
+        intro: '超级快充 充电器+线 套装',
         img: 'static/img/index/seckill/seckill-item1.jpg',
         price: 71.9,
         realPrice: 89.6
@@ -15,7 +15,7 @@ export const loadSeckillsInfo = ({ commit }) => {
         realPrice: 1299.0
       },
       {
-        intro: '粮悦 大吃兄糯米锅巴 安徽特产锅巴糯米原味400g*2盒',
+        intro: '炊大皇 高级麦饭石色24cm平底锅',
         img: 'static/img/index/seckill/seckill-item3.jpg',
         price: 21.8,
         realPrice: 49.0
@@ -72,7 +72,7 @@ export const loadComputer = ({ commit }) => {
   return new Promise((resolve, reject) => {
     const computer = {
       title: '电脑数码',
-      link: [ '电脑馆', '游戏极品', '装机大师', '职场焕新', '女神频道', '虚拟现实', '二合一平板', '电子教育', '万物周刊' ],
+      link: [ '电脑馆', '游戏极品', '装机大师', '职场焕新', '女神频道', '虚拟现实', '二合一平板', '万物周刊' ],
       detail: [
         {
           bigImg: 'static/img/index/computer/item-computer-1.jpg',
@@ -144,67 +144,67 @@ export const loadComputer = ({ commit }) => {
 export const loadEat = ({ commit }) => {
   return new Promise((resolve, reject) => {
     const eat = {
-      title: '爱吃',
-      link: [ '休闲零食', '坚果', '牛奶', '饮料冲调', '食用油', '大米', '白酒', '红酒', '烧烤食材', '牛排', '樱桃' ],
+      title: '服饰',
+      link: [ '男装', '女装', '鞋帽', '箱包', '童装', '男鞋', '女鞋', '配饰', '内衣', '户外', '运动' ],
       detail: [
         {
-          bigImg: 'static/img/index/eat/item-eat-1-1.jpg',
+          bigImg: 'static/img/index/fashion/item-fashion-1-1.jpg',
           itemFour: [
             {
-              title: '粮油调味',
+              title: '休闲裤装',
               intro: '买2免1',
-              img: 'static/img/index/eat/item-eat-1-2.jpg'
+              img: 'static/img/index/fashion/item-fashion-1-2.jpg'
             },
             {
-              title: '饮料冲调',
-              intro: '第二件半价',
-              img: 'static/img/index/eat/item-eat-1-3.jpg'
+              title: 'T恤',
+              intro: '全场8折',
+              img: 'static/img/index/fashion/item-fashion-1-3.jpg'
             },
             {
-              title: '休闲零食',
+              title: '女鞋',
               intro: '满99减40',
-              img: 'static/img/index/eat/item-eat-1-4.jpg'
+              img: 'static/img/index/fashion/item-fashion-1-4.jpg'
             },
             {
-              title: '中外名酒',
+              title: '内衣',
               intro: '满199减100',
-              img: 'static/img/index/eat/item-eat-1-5.jpg'
+              img: 'static/img/index/fashion/item-fashion-1-5.jpg'
             }
           ],
           itemContent: [
-            'static/img/index/eat/item-eat-1-6.jpg',
-            'static/img/index/eat/item-eat-1-7.jpg',
-            'static/img/index/eat/item-eat-1-8.jpg'
+            'static/img/index/fashion/item-fashion-1-6.jpg',
+            'static/img/index/fashion/item-fashion-1-7.jpg',
+            'static/img/index/fashion/item-fashion-1-8.jpg'
           ]
         },
         {
-          bigImg: 'static/img/index/eat/item-eat-2-1.jpg',
+          bigImg: 'static/img/index/fashion/item-fashion-2-1.jpg',
           itemFour: [
             {
-              title: '东家菜',
-              intro: '丰富好味',
-              img: 'static/img/index/eat/item-eat-2-2.jpg'
+              title: '腰带',
+              intro: '型男必备',
+              img: 'static/img/index/fashion/item-fashion-2-2.jpg'
             },
             {
-              title: '东家菜',
-              intro: '丰富好味',
-              img: 'static/img/index/eat/item-eat-2-2.jpg'
+              title: '女包',
+              intro: '大牌云集',
+              img: 'static/img/index/fashion/item-fashion-2-3.jpg'
             },
             {
-              title: '东家菜',
-              intro: '丰富好味',
-              img: 'static/img/index/eat/item-eat-2-2.jpg'
+              title: '钟表',
+              intro: '全场满减',
+              img: 'static/img/index/fashion/item-fashion-2-4.jpg'
             },
             {
-              title: '东家菜',
-              intro: '丰富好味',
-              img: 'static/img/index/eat/item-eat-2-2.jpg'
+              title: '帽子',
+              intro: '经典款式',
+              img: 'static/img/index/fashion/item-fashion-2-5.jpg'
             }
           ],
           itemContent: [
-            'static/img/index/eat/item-eat-2-6.jpg',
-            'static/img/index/eat/item-eat-2-7.jpg',
-            'static/img/index/eat/item-eat-2-8.jpg'
+            'static/img/index/fashion/item-fashion-2-6.jpg',
+            'static/img/index/fashion/item-fashion-2-7.jpg',
+            'static/img/index/fashion/item-fashion-2-8.jpg'
           ]
         }
       ]
@@ -225,7 +225,7 @@ export const loadGoodsInfo = ({ commit }) => {
           'static/img/goodsDetail/item-detail-3.jpg',
           'static/img/goodsDetail/item-detail-4.jpg'
         ],
-        title: '苹果8/7手机壳iPhone7 Plus保护壳全包防摔磨砂硬外壳',
+        title: '苹果6s/8手机壳iPhone8 Plus保护壳全包防摔磨砂硬外壳',
         tags: ['满69-20元', '关注产品★送钢化膜', '配次日达'],
         discount: ['满148减10', '满218减20', '满288减30'],
         promotion: ['跨店满减', '多买优惠'],
@@ -234,12 +234,12 @@ export const loadGoodsInfo = ({ commit }) => {
           [
             {
               img: 'static/img/goodsDetail/pack/1.jpg',
-              intro: '4.7英寸-深邃蓝',
+              intro: '5.7英寸-深邃蓝',
               price: 28.0
             },
             {
               img: 'static/img/goodsDetail/pack/2.jpg',
-              intro: '4.7英寸-星空黑',
+              intro: '5.7英寸-星空黑',
               price: 29.0
             },
             {
@@ -268,17 +268,17 @@ export const loadGoodsInfo = ({ commit }) => {
           [
             {
               img: 'static/img/goodsDetail/pack/7.jpg',
-              intro: '4.7英寸-香槟金',
+              intro: '5.7英寸-香槟金',
               price: 26.0
             },
             {
               img: 'static/img/goodsDetail/pack/8.jpg',
-              intro: '4.7英寸-玫瑰金',
+              intro: '5.7英寸-玫瑰金',
               price: 25.0
             },
             {
               img: 'static/img/goodsDetail/pack/9.jpg',
-              intro: '4.7英寸-中国红',
+              intro: '5.7英寸-中国红',
               price: 28.0
             }
           ]
@@ -368,7 +368,7 @@ export const loadGoodsInfo = ({ commit }) => {
               username: 'p****1',
               values: 3,
               content: '颜色很好看，质量也不错！，还送了个指环，想不到哦！',
-              goods: '4.7英寸-深邃蓝',
+              goods: '5.7英寸-深邃蓝',
               create_at: '2018-05-15 09:20'
             },
             {
@@ -382,21 +382,21 @@ export const loadGoodsInfo = ({ commit }) => {
               username: '3****z',
               values: 4.5,
               content: '相当轻薄，店家还送了一大堆配件，*元非常值得！',
-              goods: '4.7英寸-玫瑰金',
+              goods: '5.7英寸-玫瑰金',
               create_at: '2018-05-05 12:25'
             },
             {
               username: 'gd****c',
               values: 3.5,
               content: '就是我想要的手机壳，壳子很薄，手感不错，就像没装手机壳一样，想要裸机手感的赶快下手了。',
-              goods: '4.7英寸-中国红',
+              goods: '5.7英寸-中国红',
               create_at: '2018-04-06 16:23'
             },
             {
               username: 'r****b',
               values: 4.5,
               content: '壳子还不错，送的膜也可以，不过还是感觉膜小了那么一点，屏幕没法完全覆盖。对了，壳子稍微有点硬，可能会伤漆，所以不要频繁取壳就好。',
-              goods: '4.7英寸-中国红',
+              goods: '5.7英寸-中国红',
               create_at: '2018-03-15 19:24'
             },
             {
@@ -477,7 +477,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-2.jpg',
             price: 28.00,
-            intro: '蒙奇奇 苹果6s手机壳磨砂防摔保护套 适用于iphone6/6s/6sPlus/6plus 6/6s 4.7英',
+            intro: '蒙奇奇 苹果14手机壳磨砂防摔保护套 适用于iphone6/14/6sPlus/6plus 6/6s 4.7英',
             remarks: 3000,
             shopName: 'monqiqi旗舰店',
             sale: 9600
@@ -485,7 +485,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-3.jpg',
             price: 15.00,
-            intro: 'BIAZE 苹果6/6s手机壳 苹果iphone6s 4.7英寸透明手机套 清爽系列',
+            intro: 'BIAZE 苹果14/14手机壳 苹果iphone14 5.7英寸透明手机套 清爽系列',
             remarks: 2800,
             shopName: 'BIAZE官方旗舰店',
             sale: 8900
@@ -493,7 +493,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-4.jpg',
             price: 29.90,
-            intro: '慕臣 苹果6s手机壳全包防摔磨砂软保护套男女 适用于iPhone6splus',
+            intro: '慕臣 苹果14手机壳全包防摔磨砂软保护套男女 适用于iphone14plus',
             remarks: 9000,
             shopName: '歌乐力手配专营店',
             sale: 8600
@@ -501,7 +501,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-5.jpg',
             price: 15.00,
-            intro: 'BIAZE 苹果6/6s手机壳 苹果iphone6s 4.7英寸透明手机套 清爽系列',
+            intro: 'BIAZE 苹果14/14手机壳 苹果iphone14 5.7英寸透明手机套 清爽系列',
             remarks: 6160,
             shopName: 'BIAZE官方旗舰店',
             sale: 8560
@@ -509,7 +509,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-6.jpg',
             price: 28.00,
-            intro: '慕臣 苹果6s手机壳全包防摔磨砂软保护套男女 适用于iPhone6splus',
+            intro: '慕臣 苹果14手机壳全包防摔磨砂软保护套男女 适用于iphone14plus',
             remarks: 9006,
             shopName: '歌乐力手配专营店',
             sale: 8530
@@ -517,7 +517,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-7.jpg',
             price: 15.00,
-            intro: 'BIAZE 苹果6/6s手机壳 苹果iphone6s 4.7英寸透明手机套 清爽系列',
+            intro: 'BIAZE 苹果14/14手机壳 苹果iphone14 5.7英寸透明手机套 清爽系列',
             remarks: 8666,
             shopName: 'BIAZE官方旗舰店',
             sale: 8360
@@ -525,7 +525,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-8.jpg',
             price: 29.90,
-            intro: '慕臣 苹果6s手机壳全包防摔磨砂软保护套男女 适用于iPhone6splus',
+            intro: '慕臣 苹果14手机壳全包防摔磨砂软保护套男女 适用于iphone14plus',
             remarks: 6080,
             shopName: '歌乐力手配专营店',
             sale: 7560
@@ -541,7 +541,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-2.jpg',
             price: 28.00,
-            intro: '蒙奇奇 苹果6s手机壳磨砂防摔保护套 适用于iphone6/6s/6sPlus/6plus 6/6s 4.7英',
+            intro: '蒙奇奇 苹果14手机壳磨砂防摔保护套 适用于iphone6/14/6sPlus/6plus 6/6s 4.7英',
             remarks: 3000,
             shopName: 'monqiqi旗舰店',
             sale: 6960
@@ -549,7 +549,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-3.jpg',
             price: 15.00,
-            intro: 'BIAZE 苹果6/6s手机壳 苹果iphone6s 4.7英寸透明手机套 清爽系列',
+            intro: 'BIAZE 苹果14/14手机壳 苹果iphone14 5.7英寸透明手机套 清爽系列',
             remarks: 2800,
             shopName: 'BIAZE官方旗舰店',
             sale: 6560
@@ -557,7 +557,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-4.jpg',
             price: 29.90,
-            intro: '慕臣 苹果6s手机壳全包防摔磨砂软保护套男女 适用于iPhone6splus',
+            intro: '慕臣 苹果14手机壳全包防摔磨砂软保护套男女 适用于iphone14plus',
             remarks: 9000,
             shopName: '歌乐力手配专营店',
             sale: 6360
@@ -565,7 +565,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-5.jpg',
             price: 15.00,
-            intro: 'BIAZE 苹果6/6s手机壳 苹果iphone6s 4.7英寸透明手机套 清爽系列',
+            intro: 'BIAZE 苹果14/14手机壳 苹果iphone14 5.7英寸透明手机套 清爽系列',
             remarks: 6160,
             shopName: 'BIAZE官方旗舰店',
             sale: 5530
@@ -573,7 +573,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-6.jpg',
             price: 28.00,
-            intro: '慕臣 苹果6s手机壳全包防摔磨砂软保护套男女 适用于iPhone6splus',
+            intro: '慕臣 苹果14手机壳全包防摔磨砂软保护套男女 适用于iphone14plus',
             remarks: 9006,
             shopName: '歌乐力手配专营店',
             sale: 5560
@@ -581,7 +581,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-7.jpg',
             price: 15.00,
-            intro: 'BIAZE 苹果6/6s手机壳 苹果iphone6s 4.7英寸透明手机套 清爽系列',
+            intro: 'BIAZE 苹果14/14手机壳 苹果iphone14 5.7英寸透明手机套 清爽系列',
             remarks: 8666,
             shopName: 'BIAZE官方旗舰店',
             sale: 5260
@@ -589,7 +589,7 @@ export const loadGoodsList = ({ commit }) => {
           {
             img: 'static/img/goodsList/item-show-8.jpg',
             price: 29.90,
-            intro: '慕臣 苹果6s手机壳全包防摔磨砂软保护套男女 适用于iPhone6splus',
+            intro: '慕臣 苹果14手机壳全包防摔磨砂软保护套男女 适用于iphone14plus',
             remarks: 6080,
             shopName: '歌乐力手配专营店',
             sale: 3560
@@ -616,29 +616,29 @@ export const loadRecommend = ({ commit }) => {
       [
         {
           img: 'static/img/otherBuy/1.jpg',
-          intro: 'iPhone7/6s/8钢化膜苹果7Plus全屏全覆盖3D抗蓝',
+          intro: 'iPhone7/14/8钢化膜苹果7Plus全屏全覆盖3D抗蓝',
           price: 29.00
         },
         {
           img: 'static/img/otherBuy/2.jpg',
-          intro: '苹果数据线 苹果iPhoneX/6s/7plus/8充电线',
+          intro: '苹果数据线 苹果iPhoneX/14/7plus/8充电线',
           price: 36.00
         },
         {
           img: 'static/img/otherBuy/3.jpg',
-          intro: '苹果8/7/6/6s钢化膜 iphone8/7/6s/6钢化玻璃',
+          intro: '苹果8/7/6/6s钢化膜 iphone8/7/14/6钢化玻璃',
           price: 19.00
         },
         {
           img: 'static/img/otherBuy/4.jpg',
-          intro: 'iPhone6s/7钢化膜苹果8 Plus手机膜抗蓝光非全屏',
+          intro: 'iphone14/7钢化膜苹果8 Plus手机膜抗蓝光非全屏',
           price: 28.00
         }
       ],
       [
         {
           img: 'static/img/otherBuy/5.jpg',
-          intro: '苹果6s手机壳iPhone6s Plus保护壳防摔全',
+          intro: '苹果14手机壳iphone14 Plus保护壳防摔全',
           price: 28.00
         },
         {
@@ -653,7 +653,7 @@ export const loadRecommend = ({ commit }) => {
         },
         {
           img: 'static/img/otherBuy/8.jpg',
-          intro: 'iPhone8/7/6S/6钢化膜 苹果8/7/6s/6玻璃膜 手机高',
+          intro: 'iPhone8/7/14/6钢化膜 苹果8/7/14/6玻璃膜 手机高',
           price: 15.00
         }
       ]
@@ -696,9 +696,9 @@ export const loadShoppingCart = ({ commit }) => {
       goods_id: 1529931938150,
       count: 1,
       img: 'static/img/goodsDetail/pack/1.jpg',
-      package: '4.7英寸-深邃蓝',
+      package: '5.7英寸-深邃蓝',
       price: 28,
-      title: '苹果8/7手机壳iPhone7 Plus保护壳全包防摔磨砂硬外壳'
+      title: '苹果14/15手机壳iPhone14 Plus保护壳全包防摔磨砂硬外壳'
     }];
     commit('SET_SHOPPING_CART', data);
   });

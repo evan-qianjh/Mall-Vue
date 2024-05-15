@@ -444,6 +444,8 @@ export default {
 .item-content-bottom-img img {
   margin-left: 0px;
   transition: margin-left 0.3s;
+  width: 100%;
+  border: 1px #eee solid;
 }
 .item-content-bottom-img:hover img {
   margin-left: -15px;
