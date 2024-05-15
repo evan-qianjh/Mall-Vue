@@ -671,8 +671,8 @@ export const loadAddress = ({ commit }) => {
         province: '安徽省',
         city: '合肥市',
         area: '蜀山区',
-        address: '创新大道',
-        phone: '198****4949',
+        address: '创新大道32号',
+        phone: '198****7799',
         postalcode: '230000'
       },
       {
@@ -681,8 +681,8 @@ export const loadAddress = ({ commit }) => {
         province: '安徽省',
         city: '合肥市',
         area: '蜀山区',
-        address: '创新大道',
-        phone: '187****8535',
+        address: '创新大道32号',
+        phone: '187****8805',
         postalcode: '230000'
       }
     ];
