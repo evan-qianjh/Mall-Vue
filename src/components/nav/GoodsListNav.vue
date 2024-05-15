@@ -9,10 +9,10 @@
           <li><router-link to="/">美妆馆</router-link></li>
           <li><router-link to="/">超市</router-link></li>
           <li><router-link to="/">生鲜</router-link></li>
-          <li><router-link to="/">全球购</router-link></li>
+<!--          <li><router-link to="/">全球购</router-link></li>-->
           <li><router-link to="/">闪购</router-link></li>
-          <li><router-link to="/">拍卖</router-link></li>
-          <li><router-link to="/">金融</router-link></li>
+<!--          <li><router-link to="/">拍卖</router-link></li>-->
+<!--          <li><router-link to="/">金融</router-link></li>-->
         </ul>
       </div>
     </div>
