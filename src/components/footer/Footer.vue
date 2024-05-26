@@ -2,24 +2,24 @@
   <div>
     <footer class="footer">
       <div class="clearfix"></div>
-      <div class="icon-row">
-        <div class="footer-icon">
-          <h5 class="footer-icon-child"></h5>
-          <span class="footer-icon-text">品类齐全，轻松购物</span>
-        </div>
-        <div class="footer-icon">
-          <h5 class="footer-icon-child footer-icon-child-2"></h5>
-          <span class="footer-icon-text">多仓直发，极速配送</span>
-        </div>
-        <div class="footer-icon">
-          <h5 class="footer-icon-child footer-icon-child-3"></h5>
-          <span class="footer-icon-text">正品行货，精致服务</span>
-        </div>
-        <div class="footer-icon">
-          <h5 class="footer-icon-child footer-icon-child-4"></h5>
-          <span class="footer-icon-text">天天低价，畅选无忧</span>
-        </div>
-      </div>
+<!--      <div class="icon-row">-->
+<!--        <div class="footer-icon">-->
+<!--          <h5 class="footer-icon-child"></h5>-->
+<!--          <span class="footer-icon-text">品类齐全，轻松购物</span>-->
+<!--        </div>-->
+<!--        <div class="footer-icon">-->
+<!--          <h5 class="footer-icon-child footer-icon-child-2"></h5>-->
+<!--          <span class="footer-icon-text">多仓直发，极速配送</span>-->
+<!--        </div>-->
+<!--        <div class="footer-icon">-->
+<!--          <h5 class="footer-icon-child footer-icon-child-3"></h5>-->
+<!--          <span class="footer-icon-text">正品行货，精致服务</span>-->
+<!--        </div>-->
+<!--        <div class="footer-icon">-->
+<!--          <h5 class="footer-icon-child footer-icon-child-4"></h5>-->
+<!--          <span class="footer-icon-text">天天低价，畅选无忧</span>-->
+<!--        </div>-->
+<!--      </div>-->
       <div class="service-intro">
 <!--        <div class="servece-type">-->
 <!--          <div class="servece-type-info" v-for="(guide, index) in guideArr" :key="index">-->
