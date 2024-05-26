@@ -21,23 +21,23 @@
         </div>
       </div>
       <div class="service-intro">
-        <div class="servece-type">
-          <div class="servece-type-info" v-for="(guide, index) in guideArr" :key="index">
-            <ul>
-              <li v-for="(item, index) in guide" :key="index">{{item}}</li>
-            </ul>
-          </div>
-        </div>
+<!--        <div class="servece-type">-->
+<!--          <div class="servece-type-info" v-for="(guide, index) in guideArr" :key="index">-->
+<!--            <ul>-->
+<!--              <li v-for="(item, index) in guide" :key="index">{{item}}</li>-->
+<!--            </ul>-->
+<!--          </div>-->
+<!--        </div>-->
         <div class="clearfix"></div>
-        <div class="friend-link">
-          <div class="friend-link-item">
-            <ul>
-              <li v-for="(link, index) in moreLink" :key="index">
-                <span :class="[linkItemClass, {'link-last-item': index === 9}]">{{link}}</span>
-              </li>
-            </ul>
-          </div>
-        </div>
+<!--        <div class="friend-link">-->
+<!--          <div class="friend-link-item">-->
+<!--            <ul>-->
+<!--              <li v-for="(link, index) in moreLink" :key="index">-->
+<!--                <span :class="[linkItemClass, {'link-last-item': index === 9}]">{{link}}</span>-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </div>-->
+<!--        </div>-->
         <div class="clearfix"></div>
         <div class="copyright">
           <p>Copyright © 2024 <span>合肥乾图无限科技有限公司</span> <a href="https://beian.miit.gov.cn/">皖ICP备2024034969号-1</a></p>
